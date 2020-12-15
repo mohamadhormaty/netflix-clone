@@ -1,0 +1,53 @@
+.baner {
+  position: relative;
+  height: 500px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.baner .baner-content {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.baner .baner-content p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.baner .baner-btns {
+  margin: 10px 0;
+}
+
+.baner .baner-btns .baner-btn {
+  outline: none;
+  border: none;
+  padding: 8px 20px;
+  margin-right: 5px;
+  color: #111;
+  font-weight: bold;
+  transition: all ease-in 0.2s;
+}
+
+.baner .baner-btns .baner-btn:hover {
+  background-color: #111;
+  color: #fff;
+}
+
+.baner .shadow {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
